@@ -4,7 +4,7 @@ dotenv.config();
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
-  people,
+  pepul,
   root, 
   jspv,
    {
