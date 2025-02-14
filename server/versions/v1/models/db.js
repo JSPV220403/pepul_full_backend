@@ -4,12 +4,12 @@ dotenv.config();
 const { Sequelize } = require('sequelize');
 
 const sequelize = new Sequelize(
-  "pepul", 
-  "root", 
-  "jspv", 
+  'pepul', 
+  'root', 
+  'jspv', 
   {
-    host: "localhost",
-    dialect: "mysql",
+    host: 'localhost',
+    dialect: 'mysql',
     port: 3306,
     logging: false,
   }
